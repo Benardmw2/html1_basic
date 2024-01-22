@@ -1,0 +1,27 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+   background-size: contain;
+        background-image: url("Assets/images/toyota3.jpeg");
+       background-repeat: no-repeat;
+     background-attachment: fixed;
+       image-resolution: from-image
+}
+td,th{
+    border: 2px solid darkblue;
+    padding: 5px;
+}
+th{ font-family: "Chandas";
+    font-size: 20px;
+    color:green }
+td{ color: crimson}
+tr:nth-child(even){
+    background-color: #5eefef
+}
+tr:nth-child(odd){background-color: fuchsia}
+h2{text-align: center;
+color: #6aff14;
+font-family: "Courier 10 Pitch"}
+/*body{background-size: cover;*/
+/*background-image: url("Assets/images/mount2.jpeg")}*/

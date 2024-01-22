@@ -1,0 +1,15 @@
+#hl{font-family: "Century Schoolbook L";
+color: mediumvioletred;
+font-size: 25px}
+#ho{font-family: aakar;
+font-size: 20px;
+color: cyan}
+.hi{font-family: "Abyssinica SIL";
+font-size:15px;
+color: #6aff14;
+background-image: url("Assets/images/orange3.jpeg")}
+div{
+    float: left;
+    margin: 0;
+
+}

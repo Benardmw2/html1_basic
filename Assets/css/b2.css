@@ -1,0 +1,36 @@
+    #form-container{
+            border: 2px solid dodgerblue;
+            width: 400px;
+            padding: 10px;
+            color: #801700;
+            background: gainsboro;
+        border-radius: 10px;
+        margin: 20px;
+
+      }
+
+        h2{background-color: #a2ff00;
+        padding: 5px;
+        font-family: "Noto Mono";
+        font-size: medium;
+        color: magenta;
+        margin: 0}
+        body{font-family: Chilanka;
+            background-color: #282626;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;}
+
+.form-group{margin-bottom: 10px}
+label{display: block;
+margin-bottom: 8px;
+font-weight: bold}
+button{background-color: coral;
+border-radius: 5px;
+color: darkblue;
+padding: 10px 15px;
+border: none;
+font-size: 16px}

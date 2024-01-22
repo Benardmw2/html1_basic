@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <style>
+        #form{margin: auto;
+            border: 2px solid dodgerblue;
+            width: 400px;
+            padding: 10px;
+            color: #801700;
+            background: gainsboro;
+            border-radius: 10px;
+      }
+        .box{background-color: dimgrey;
+            color: beige;
+        }
+        h2{background-color: #a2ff00;
+        padding: 5px;
+        font-family: "Noto Mono";
+        font-size: medium;
+        color: #e73913;
+        margin: 0}
+        body{background-image: url("Assets/images/background1.jpeg");
+        background-color: #282626;
+        background-repeat: repeat;
+        background-size: initial}
+        #button{}
+        .text{font-family:Chilanka}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="icon" href="Assets/images/jjk1.jpeg">
+</head>
+<body>
+<ul>
+      <li> <a href="links.html">Links</a></li>
+    <li><a href="intro.html">Intro</a></li>
+    <li><a href="images.html">Images</a></li>
+    <li><a href="headings.html">Headings</a></li>
+    <li><a href="lists.html">Lists</a></li>
+    <li><a href="navigation.html">Navigation </a></li>
+   <li><a href="tables.html">Tables </a></li>
+  <li><a href="divs.html">Divs</a></li>
+    <li><a href="forms.html">Forms</a></li>
+
+</ul>
+<br><br><br>
+<hr>
+<h2>Emobilis Registration Form</h2>
+<hr>
+<div id="form">
+<form action="">
+    <label class="text"  for="fname">First Name</label>
+    <input class="box" type="text" id="fname" name="jina" required placeholder="Enter Name"  ><br>
+    <hr>
+    <label class="text" for="lname">Last Name</label>
+    <input class="box" type="text" id="lname" name="neno" placeholder="Enter Name"><br>
+    <hr>
+    <label class="text"  for="email">Email</label>
+    <input class="box" type="email" id="email" name="barua" placeholder="Enter Email address" ><br>
+    <hr>
+    <label class="text"  for="phone">Mobile Number</label>
+    <input class="box" type="text" id="phone" name="nambari" placeholder="Enter Phone Number"><br>
+    <hr>
+    <label class="text"  for="dob">Date of Birth</label>
+    <input class="box" type="date" id="dob" name="tarehe"><br>
+    <hr>
+    <label class="text" for="female">Female</label>
+    <input type="radio"id="female" name="gender">
+       <label class="text" for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+       <label class="text" for="others">Custom</label>
+    <input type="radio" id="others" name="gender"><br>
+    <hr>
+    <label class="text" for="course">Course Taken</label>
+    <select name="course" id="course">
+        <option value="MIT">MIT</option>
+        <option value="Android">Android</option>
+        <option value="Cybersecurity">Cybersecurity</option>
+        <option value="Datascience">Datascience</option>
+        <option value="AI">AI</option>
+        <option value="Ethical Hacking">Ethical Hacking</option>
+    </select><br>
+    <hr>
+    <label class="text"  for="pic">Upload image</label>
+    <input type="file"id="pic"><br>
+    <hr>
+    <label class="text"  for="courses">Choose payment method</label>
+    <input list="courses">
+    <datalist id="courses">
+         <option value="cash">Cash</option>
+        <option value="Android">Cheque</option>
+        <option value="Cybersecurity">Credit card</option>
+        <option value="Datascience">Debit card</option>
+        <option value="AI">Mpesa</option>
+
+    </datalist>
+    <br>
+    <hr>
+      <label class="text"  for="pword">Password</label>
+    <input class="box" type="password" id="pword" name="siri" placeholder="Enter Password"><br><br>
+
+    <input id="button" type="submit" value="Register">
+</form>
+</div>
+</body>
+</html>
